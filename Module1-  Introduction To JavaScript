@@ -49,3 +49,26 @@ used in front end and backend
 
 However, if you don't code regularly - preferably on a daily basis - your progress will be slower. 
 Try to set aside some time to consistently code and learn every day. Persistence is key.
+
+
+clear the terminal: using 'clear' command in terminal
+
+c:/> clear   --> clear content fromt the terminal
+
+Java script integrated with browser --> we can write the JS code in console tab
+
+CLient application developed based on plain JS/ JS frame work(React/Vue/D3)/Node
+
+Comments:
+__________
+1. single line comment : to comment one line only
+2. multi line comment : to comment the multi lines.
+
+single line comments: //
+multi line comments  /* .... */
+/* ............
+...........
+.......
+*/
+
+in JS every statement ends with ';'(semi colon) only
