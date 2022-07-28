@@ -72,3 +72,5 @@ multi line comments  /* .... */
 */
 
 in JS every statement ends with ';'(semi colon) only
+
+console.log("%chello, world", "color:blue; font-size:40px"); --> display hello, world in blue color/ font-size with 40px
