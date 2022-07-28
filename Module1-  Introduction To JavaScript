@@ -82,3 +82,33 @@ multiple words displaying in colsole.log:
 ________________________________________
 console.log("hello" + "world," + "!") -- Hello world,!
 console.log("hello", "world,", "!") -- Hello world,!
+
+
+
+Variables:
+_______________
+Varaibles are not static, always changeable
+
+>"John" --> press enter
+>'John'
+>var person  --> undefined  , w/o assigning a value -->varaible always undefined value only.
+>var person = 'SamSunder'  ;
+>undefined
+>person
+>'John'
+
+multiple values are seperated by commma(,)
+>console.log('Hello ', person);  --> already person has the value i.e John
+>'Hello John'
+
+displaying with multiple varaibles:
+>var greetings = 'Hello';
+>console( greetings, person);
+>Hello John
+
+changing the values to the varaibles:
+>greetings = "hi';
+>person = 'James';
+>console.log(greetings, person);
+>Hi James
+
