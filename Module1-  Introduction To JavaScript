@@ -73,4 +73,12 @@ multi line comments  /* .... */
 
 in JS every statement ends with ';'(semi colon) only
 
+console log:
+_______________
+
 console.log("%chello, world", "color:blue; font-size:40px"); --> display hello, world in blue color/ font-size with 40px
+
+multiple words displaying in colsole.log:
+________________________________________
+console.log("hello" + "world," + "!") -- Hello world,!
+console.log("hello", "world,", "!") -- Hello world,!
