@@ -165,3 +165,31 @@ My pet cat's name is:  Pepper
 Rex  says  woof
 Pepper  says  purr
 Pepper  now says  meow
+
+Data types:
+____________
+primitive data types in JS:(7)
+1. string
+2. Number
+3. Boolean
+4. Null
+5. Undefined
+6. BigInt
+7. Symbol
+
+Strings:
+________
+--  Name and description stored in text values.
+--  Text value is known as string.
+--  String value kept in enclosed with single quotes(' ' )/ double quotes(" .. ")
+Ex:
+'String' /"String" ---> string data type
+-- unlimited number of chars.
+
+Number:
+_______
+--  Price stored in Number data type
+--  Ex:
+275  --> Number data type
+
+-- Number data type can be used in widely 
