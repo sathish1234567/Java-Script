@@ -193,3 +193,19 @@ _______
 275  --> Number data type
 
 -- Number data type can be used in widely 
+
+Boolean:
+--------
+
+-- it will take True(1)/False(0)
+-- it is useful for making decisions
+
+NULL:
+_____
+-- Which only has the value 'NO'.
+-- represnts the Absence of the value.
+
+Undefined:
+_________
+-- Unassigned a value.
+-- means : varaible has defined but value has not yet been assigned.
