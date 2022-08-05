@@ -209,3 +209,14 @@ Undefined:
 _________
 -- Unassigned a value.
 -- means : varaible has defined but value has not yet been assigned.
+
+
+BigInt:
+_______
+-- is used to vary large range of numbers.
+-- Ex: 2^53 ( 2 power 53)
+
+Symbol:
+________
+-- used for unique identifier.
+-- 
