@@ -1,0 +1,20 @@
+Strings:
+
+a collection of characters enclosed in single/double quotes.
+
+Ex:
+_______
+''/"" --> represnts the empty string.
+'Hello there!'
+"Hello there!12345"
+
+string can do break on to the next line:
+_________________________________________
+escape characters:
+
+>"It's a lovely day"  --> It's a lovely day
+>'It's a lovely day'  --> error
+>'have a great day "sathish"' --> have a great day "sathish"
+
+
+
