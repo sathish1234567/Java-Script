@@ -1,0 +1,13 @@
+Booleans:
+
+- possible values are true/ false
+- used in comparison.
+
+Ex:
+> 1<2    -->true
+> 1>2    -->false
+> 1==2   -->false
+> 100 == "100"  --> true  --> it is comparing the only values not the data type.
+> 100 === "100" --> false --> it is checking value + data types, here values are equal but data types are not equal.
+> 1!=1   -->false.
+> 1!=="1" --> true        --> because data types are not match and both the value are not match(string val and number value)
