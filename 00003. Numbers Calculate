@@ -1,0 +1,54 @@
+Number data type:
+-- Number data type represents the Integers and Decimals.
+
+Ex: 123/123.45 are NUmber data types.
+
+browser Console:
+___________________
+> 123       --> enter     -->123    (Number data types)
+>123.45     --> enter     -->123.45 (Number data types)
+
+>2+2        -->enter      -->4
+>4-2        -->enter      -->2
+>4*4        -->enter      -->16
+>16/4       -->enter      -->4
+?10**2      -->enter      -->100 (10 to the power of 2)
+>10%3       -->enter      -->1   (modulus opeator --> used to get he reminde value.
+
+Precedence of the operators:
+___________________________
+>2*4+8        --->16 (2*4 = 8 + 8= 16)
+ Here first execute the multiplication operator, after the adding the multiplied number then add to 8 number.
+ 2*4          -->8
+ 8            -->8
+ total        ---<16
+ 
+ >2*(4+8)     -->24   
+  1st         --> parenthesis( ( ) ).
+  2nd         --> execute the with in the parenthsis
+  3rd         --> multiply
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
