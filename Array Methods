@@ -10,12 +10,19 @@ Array.prototype.at()
  ---  for index -ve integer array{ index-n, index-n-(-1), index-n-(-2).... index- -2, index- -1] 
       diresction R2L( Right to Left )
       
-      A[]   index +ve
-      10      0
-      20      1
-      30      2
-      40
-      50
+      A[]   index +ve    index -ve
+      10      0           -5
+      20      1           -4
+      30      2           -3
+      40      3           -2
+      50      4           -1
+      
+      A.length = index + 1. == 4+1 = 5
+      
+      
+      return value undefined:
+      when index >= array.length
+      when index < array.length
       
       Ex: 
       const array1 = [5, 12, 8, 130, 44];
@@ -33,7 +40,60 @@ Array.prototype.at()
       
       output:
       "Using an index of -2 item returned is 130"
-      
+      ********************************************
+      Ex: Return the last element of an array.
+      // Our array with items
+      const cart = ["apple", "banana", "pear"];
 
+      // A function which returns the last item of a given array
+      function returnLast(arr) {
+        return arr.at(-1);
+      }
+
+      // Get the last item of our array 'cart'
+      const item1 = returnLast(cart);
+      console.log(item1); // 'pear'
+
+      // Add an item to our 'cart' array
+      cart.push("orange");         --> push used for appending the data to an array
+      const item2 = returnLast(cart);
+      console.log(item2); // 'orange'
+      
+      output:
+      > "pear"
+      > "orange"
+      **************************************************
+      
+      Ex:
+             // Our array with items
+       const colors = ["red", "green", "blue"];
+
+       // Using length property
+       const lengthWay = colors[colors.length - 2];
+       console.log(lengthWay); // 'green'
+
+       // Using slice() method. Note an array is returned
+       const sliceWay = colors.slice(-2, -1);  
+       console.log(sliceWay[0]); // 'green'
+       console.log(sliceWay);
+
+       // Using at() method
+       const atWay = colors.at(-2);
+       console.log(atWay); // 'green'
+      
+      output:
+        > "green"
+        > "green"
+        > Array ["green"]
+        > "green"
+ 
+ 
+       At() : use it in non-array objects
+       const arrayLike = {
+           length: 2,
+           0: "a",
+           1: "b",
+         };
+       console.log(Array.prototype.at.call(arrayLike, -1)); // "b"
       
  
