@@ -1,0 +1,39 @@
+Array.prototype.at()
+ --> At() is method for an array.
+ 
+ At(index):
+ ---  input/index takes the integer
+ ---  returns the item at the index.
+ ---  index allowing +ve and -ve numbers in index.
+ ---  for index +ve integer array{ index-0, index-1, index-2....] 
+      diresction L2R( left to Right
+ ---  for index -ve integer array{ index-n, index-n-(-1), index-n-(-2).... index- -2, index- -1] 
+      diresction R2L( Right to Left )
+      
+      A[]   index +ve
+      10      0
+      20      1
+      30      2
+      40
+      50
+      
+      Ex: 
+      const array1 = [5, 12, 8, 130, 44];
+      index           0   1  2    3   4
+      let index = 2;
+      console.log(`Using an index of ${index} the item returned is ${array1.at(index)}`);
+      
+      output:
+      "Using an index of 2 the item returned is 8"
+      
+      const array1 = [5, 12, 8, 130, 44];
+      index -         -5  -4 -3  -2   -1
+      index = -2;
+      console.log(`Using an index of ${index} item returned is ${array1.at(index)}`);
+      
+      output:
+      "Using an index of -2 item returned is 130"
+      
+
+      
+ 
