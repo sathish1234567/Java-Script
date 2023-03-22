@@ -1,0 +1,30 @@
+Loops are similar to the conditions.
+-- loop has some parameters.
+  1.  initialization
+  2.  Increment
+  3.  condition
+FOR loop:
+________
+ Ex: display count up to - 1, 2, 3.
+ for( i=1; i<4; i++ )
+ {
+ console.log(i);
+ }
+ 
+ Types of loops :
+ 1. FOR
+ 2. WHILE
+ 3. NESTED
+ 
+ For loop:
+ _________
+ used: block of code to loop, certain number of times.
+ loop will run until the conditional is true.
+ specific conditional structure.
+ 
+ for( initialization; condition; increment/decrement value)
+ 
+ 
+ While:
+ -- similar to the for loop.
+ -- 
