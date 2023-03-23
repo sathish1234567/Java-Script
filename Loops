@@ -27,16 +27,15 @@ ________
  
  While:
  -- similar to the for loop.
- syntax:
-  <initiator>
-  While (condition){
-  .....
-  <increment>
-  }
+ -- it is also run as as per condition written
+ -- initialization will do before the loop.
+ -- Condition will write at while statement.
+ -- increment will do in inside the while statement.
+ Ex:
+ var i = 1;
+ 
+ while (i < 4 )
+ {
+  console.log(i);
   
-  EXXX:
-  var i = 1;
-  while ( i <= 2 )
-  {
-   console.log(i_;
-   i++
+ }
